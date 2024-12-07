@@ -1,0 +1,5 @@
+llama.cpp
+.venv
+models
+src/__pycache__/
+SmolLM2.gguf
