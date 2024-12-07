@@ -3,3 +3,6 @@ llama.cpp
 models
 src/__pycache__/
 SmolLM2.gguf
+SmolLM2.q8.gguf
+build
+dist

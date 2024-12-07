@@ -5,7 +5,7 @@ from llama_cpp import Llama
 class LLMChatApp(ChatInterface):
     def __init__(self, root):
         super().__init__(root)
-        self.model = Llama(model_path="SmolLM2.gguf", n_ctx=4096, verbose=False)
+        self.model = Llama(model_path="SmolLM2.q8.gguf", n_ctx=4096, verbose=False)
         self.system_prompt = "Reply concisely."
         
         # Override send button command

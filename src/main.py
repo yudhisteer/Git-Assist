@@ -1,7 +1,7 @@
 from llama_cpp import Llama
 
 # Initialize the model
-model = Llama(model_path="SmolLM2.gguf", n_ctx=4096, verbose=False)
+model = Llama(model_path="SmolLM2.q8.gguf", n_ctx=4096, verbose=False)
 
 # Define the system prompt
 system_prompt = "Reply with the git commands asked only."
